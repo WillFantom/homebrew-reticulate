@@ -4,9 +4,9 @@ class Reticulate < Formula
 
   desc "Get loading messages taken from The Sims"
   homepage 'https://github.com/willfantom/reticulating-go'
-  version 'v1.0.0'
+  version 'v1.0.1'
   url "#{homepage}/releases/download/#{version}/reticulate-#{version}-darwin-amd64.tar.gz"
-  sha256 '7f801b3ca3bee02602c19095e7775281d8f45be467beddbd2e29aceb03e3c399'
+  sha256 'e9abc08114cd4a682ff9a11910c40a7b2fa67a89a2a412b9f31fc900c32d3f00'
 
   def install
     bin.install 'reticulate'
